@@ -6,7 +6,7 @@ const Home = () => {
     <Container>
       <Row className="justify-content-center mt-5">
         <Col xs={12} md={6} className="text-center">
-          <h1>Benvenuti nella Palestra Arnold Fitness</h1>
+          <h1 className="text-white">Benvenuti nella Palestra Arnold Fitness</h1>
 
           <p>
             La Palestra Arnold Fitness si impegna a fornire un ambiente accogliente e motivante per aiutarti a

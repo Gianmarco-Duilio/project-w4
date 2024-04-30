@@ -1,5 +1,6 @@
 img {
-  width: 70%;
+  width: 50%;
+  border-radius: 10px;
 }
 #body {
   width: 100%;
@@ -8,9 +9,9 @@ img {
   overflow: hidden;
   position: sticky;
   top: 0;
+  z-index: 10;
 }
 body {
-  background-image: url("https://img.freepik.com/foto-gratuito/vista-dall-alto-della-presentazione-delle-statistiche-con-la-freccia_23-2149023752.jpg?t=st=1714486431~exp=1714490031~hmac=2ab2cd439095f99bd6a8661893253f096ea96660d4cf2574c31903651eff5e42&w=1380");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: rgb(255, 253, 253);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.939) 0%, rgb(136, 24, 255) 100%);
 }

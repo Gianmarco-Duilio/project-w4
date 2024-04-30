@@ -62,7 +62,7 @@ const Blog = () => {
     <div>
       <Container>
         <div className="d-flex  align-item-baseline mb-4">
-          <h1 className="me-2">Blog</h1>
+          <h1 className="me-2 text-white">Blog</h1>
           <div className="mt-3 ms-auto">
             <Link to="/create-article">
               <Button variant="primary">Crea un nuovo articolo</Button>
@@ -73,7 +73,7 @@ const Blog = () => {
           {posts &&
             posts.map((post) => (
               <Col xs={12} md={6} lg={4} key={post.id} className="g-3">
-                <Card className="d-flex justify-content-center">
+                <Card className="d-flex justify-content-center p-3 rounded-3">
                   <Card.Img
                     variant="top"
                     src={
