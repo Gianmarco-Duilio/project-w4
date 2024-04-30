@@ -1,12 +1,12 @@
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Form, Row, Col, Button } from "react-bootstrap";
 
 const MyNav = () => (
-  <Navbar expand="lg" className="bg-body-tertiary mb-3" bg="dark" data-bs-theme="dark">
+  <Navbar id="navBar" expand="lg" className="bg-body-tertiary mb-3" bg="dark" data-bs-theme="dark">
     <Container fluid>
-      <Navbar.Brand href="#">Arnold Fitness</Navbar.Brand>
+      <Navbar.Brand href="/">ARNOLD FITNESS</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="me-auto">
+        <Nav className="ms-auto">
           <Nav.Link href="/">Home</Nav.Link>
           <Nav.Link href="/contact">Contact</Nav.Link>
           <Nav.Link href="/blog">Blog</Nav.Link>

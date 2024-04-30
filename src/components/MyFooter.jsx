@@ -5,7 +5,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 const MyFooter = function () {
   return (
-    <footer className="mt-5 bg-dark" data-bs-theme="dark">
+    <footer className="mt-5 py-5 bg-dark" data-bs-theme="dark">
       <Container>
         <Row className="justify-content-center">
           <Col xs={4} className="footerCol">

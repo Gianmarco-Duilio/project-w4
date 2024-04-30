@@ -1,38 +1,16 @@
-.App {
-  text-align: center;
+img {
+  width: 70%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#body {
+  width: 100%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#navBar {
+  overflow: hidden;
+  position: sticky;
+  top: 0;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  background-image: url("https://img.freepik.com/foto-gratuito/vista-dall-alto-della-presentazione-delle-statistiche-con-la-freccia_23-2149023752.jpg?t=st=1714486431~exp=1714490031~hmac=2ab2cd439095f99bd6a8661893253f096ea96660d4cf2574c31903651eff5e42&w=1380");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
